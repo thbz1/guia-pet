@@ -1,0 +1,32 @@
+Em e-mails, use sempre px para definir tamanhos de fonte.
+
+Wrapper externo:
+    - Ocupa 100% da largura da viewport.
+    - Define a cor de fundo do e-mail completo.
+    - Serve como "fundo" para alinhar o conteúdo ao centro da tela.
+    - Ajuda a padronizar a renderização do e-mail em diferentes leitores.
+
+Container principal:É a <table> centralizada e de largura fixa (normalmente 600px) que contém todo o conteúdo visível do e-mail, como o cabeçalho, corpo, botões, rodapé etc.
+    - Centraliza o conteúdo do e-mail em dispositivos maiores.
+    - Define a largura máxima do conteúdo (ex: 600px).
+    - Garante que o layout não fique esticado em telas grandes.
+    - É o elemento visual mais importante para layout e responsividade.
+
+Para aplicar cores de fundo (background-color) em e-mails HTML, use sempre o estilo inline no elemento <td>, e não no <tr>, para garantir compatibilidade total com clientes como Outlook e Yahoo Mail.
+
+Para aplicar negrito em e-mails HTML, o mais seguro é usar a tag <strong> (ou <b> se for apenas visual), pois ela é interpretada corretamente por todos os clientes de e-mail, inclusive os antigos como Outlook.
+O uso de style="font-weight: bold;" sozinho pode falhar em alguns ambientes, por isso, prefira as tags HTML com fallback visual garantido.
+
+Use <table> para estruturar seu e-mail. Evite <div> para garantir que tudo funcione bem em todos os lugares.
+
+Em e-mails HTML, evite shorthands como padding: 10px 20px;.
+Use a forma completa com padding-top, padding-right, padding-bottom e padding-left para garantir máxima compatibilidade entre diferentes clientes de e-mail.
+
+Use PNG para:
+    - Ícones de redes sociais
+    - Logotipos
+    - Imagens que precisam de fundo transparente
+
+Use JPG para:
+    - Fotos de pets, pessoas, produtos
+    - Imagens onde tamanho menor é mais importante que perfeição visual

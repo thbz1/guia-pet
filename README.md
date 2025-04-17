@@ -1,0 +1,2 @@
+## Guia Pet
+Criação de e-mail marketing com HTML, utilizando tabelas e CSS inline para assegurar compatibilidade entre diferentes clientes de e-mail. O conteúdo é fictício e utilizado sob licença livre, sem vínculo com marcas reais.
